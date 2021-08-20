@@ -1,4 +1,21 @@
-.header-color{
-    background-color: green;
+.my-color{
+    background-color: rgb(0, 54, 0);
+    min-height: 10vh;
+}
+.my-color2{
+    background-color: rgb(0, 54, 0);
     min-height: 20vh;
 }
+.bgimage{
+    background-image: url("https://chadashby.files.wordpress.com/2020/09/angel-oak-park-south-carolina.png");
+    min-height: 70vh;
+    background-size: cover;
+    }
+
+    @media (max-width: 768px)
+     {
+        #overimagetext
+        {
+            display: none;}
+        }
+    

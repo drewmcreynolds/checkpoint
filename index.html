@@ -32,20 +32,61 @@
 
 <body class="debug">
 
-    <header class="container-fluid header-color">
-        <div class="row p-2">
-            <div class="col">
-                <i class="mdi p-1 mdi-centos mdi-spin mdi-48px text-warning" aria-hidden="true"></i>
-            </div>
-            <div class="col pt-3">
-                <h1 class="text-left">Lorem Ipsum</h1>
-
+    <header>
+        <div class="row">
+            <div class="col-md">
+                <nav class="navbar sticky-top navbar-light my-color">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <h1>
+                                <i class="mdi p-1 mdi-centos mdi-spin mdi-36px text-danger" aria-hidden="true"></i>Lorem
+                                Ipsum
+                            </h1>
+                        </a>
+                    </div>
+                </nav>
 
             </div>
         </div>
-
     </header>
+
     <main>
+        <div class="container-fluid">
+            <div class="row bgimage image-fluid d-flex">
+                <div class="col-md-3 col-3 bg-light m-3 p-3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                            <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-md-2 text-center text-danger justify-content">
+                    <h3 id="overimagetext">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempora, nobis!</h3>
+                </div>
+            </div>
+            <div class="row d-flex my-color2">
+                <div class="col-md-4 col-4 p-2 m-2 my-color2 text-light">
+                    <div class="card">
+                        <div class="card-body">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis eaque voluptatem odit tempore corporis fugit adipisci quisquam beatae quibusdam possimus!
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
 
     </main>
     <footer>
