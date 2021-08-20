@@ -36,7 +36,15 @@
     #card2{
         order: 2;
         
-    }
-    
-    
+    }  
 }
+
+@media(max-width:768px) {
+    
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+     }
+    }
