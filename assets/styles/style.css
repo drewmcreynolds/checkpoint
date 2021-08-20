@@ -19,3 +19,24 @@
             display: none;}
         }
     
+.spill{
+    bottom: -80px;
+}
+
+@media (max-width:768px) {
+    #card1{
+        order: 1;
+    }
+    .spill{
+        bottom: 0px;
+    }
+}
+
+@media (max-width:768px) {
+    #card2{
+        order: 2;
+        
+    }
+    
+    
+}
